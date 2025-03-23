@@ -1,0 +1,319 @@
+/* Reset basique */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ---------- PREMIÈRE PARTIE DU HEADER ---------- */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9b009e;
+  height: 35px;
+  padding: 0 20px; /* petit espace à gauche et droite */
+}
+
+/* Logo à gauche */
+.header-top-left img {
+  height: 30px;
+  width: 30px;
+}
+
+/* Contenu central */
+.header-top-center {
+  position: absolute; /* positionné au centre de la barre */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-top-center span {
+  color: white;
+  font-size: 14px;
+}
+
+.header-top-center input[type="email"] {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.header-top-center button {
+  background-color: #00e074;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* ---------- DEUXIÈME PARTIE DU HEADER ---------- */
+.header-bottom {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Partie gauche */
+.header-bottom-left {
+  width: 200px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px; /* Espace top/bottom et left/right */
+}
+
+.header-bottom-left img {
+  height: 40px; /* Ajuste comme tu veux */
+  width: auto;
+}
+
+/* Partie centrale */
+.header-bottom-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 10px 20px; /* Espace top/bottom et left/right */
+}
+
+.header-bottom-center nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-bottom-center nav a {
+  text-decoration: none;
+  color: #333;
+  padding-bottom: 5px;
+}
+
+.header-bottom-center nav a.active {
+  border-bottom: 2px solid #333;
+}
+
+/* Partie droite */
+.header-bottom-right {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; /* Espace top/bottom et left/right */
+}
+
+.header-bottom-right span {
+  color: #333;
+}
+
+/* ---------- MAIN ---------- */
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* Centrer le contenu du main */
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px; /* Espacement entre chaque section */
+}
+
+/* Première section : titre h1 et hr */
+.section-title {
+  text-align: center;
+}
+
+.section-title h1 {
+  font-size: 36px;
+  margin-bottom: 20px; /* Espace entre le titre et le hr */
+}
+
+.section-title hr {
+  width: 10%;
+  height: 2px;
+  background-color: #9b009e; /* Mauve pour le hr */
+  border: none;
+  margin: 0 auto; /* Centrer le hr */
+}
+
+/* Deuxième section : paragraphe */
+.section-paragraph p {
+  text-align: left; /* Aligner le texte à gauche */
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Troisième section : liste ul avec bullet points mauves */
+.section-list ul {
+  list-style-type: none; /* Enlever les puces par défaut */
+  padding: 0;
+}
+
+.section-list li {
+  font-size: 18px;
+  margin: 10px 0; /* Espacement entre chaque élément de la liste */
+  color: #000; /* Couleur noire pour le texte */
+  display: flex;
+  align-items: center;
+}
+
+.section-list .bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #9b009e; /* Mauve pour le bullet point */
+  border-radius: 50%;
+  margin-right: 10px; /* Espacement entre le bullet point et le texte */
+}
+
+/* Quatrième section : titre h2 */
+.section-subtitle h2 {
+  text-align: left; /* Aligner à gauche */
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+/* Cinquième section : petits paragraphes */
+.section-paragraphs p {
+  text-align: left; /* Aligner le texte à gauche */
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0; /* Espacement entre chaque paragraphe */
+}
+
+/* ---------- MAIN ---------- */
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* Centrer le contenu du main */
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px; /* Espacement entre chaque section */
+}
+
+/* Première section : titre h1 et hr (aligné à gauche) */
+.section-title {
+  text-align: center;
+}
+
+.section-title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 20px; /* Espace entre le titre et le hr */
+}
+
+.section-title hr {
+  width: 10%;
+  height: 1.5px;
+  background-color: #9b009e; /* Mauve pour le hr */
+  border: none;
+  margin: 0 auto; /* Centrer le hr */
+}
+
+/* Deuxième section : paragraphe (centré) */
+.section-paragraph p {
+  text-align: center; /* Aligner le texte au centre */
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Troisième section : liste ul avec bullet points mauves (aligné à gauche) */
+.section-list ul {
+  list-style-type: none; /* Enlever les puces par défaut */
+  padding: 0;
+  text-align: left; /* Aligner la liste à gauche */
+}
+
+.section-list li {
+  font-size: 18px;
+  margin: 10px 0; /* Espacement entre chaque élément de la liste */
+  color: #000; /* Couleur noire pour le texte */
+  display: flex;
+  align-items: center;
+}
+
+.section-list .bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #9b009e; /* Mauve pour le bullet point */
+  border-radius: 50%;
+  margin-right: 10px; /* Espacement entre le bullet point et le texte */
+}
+
+/* Quatrième section : titre h2 (centré) */
+.section-subtitle h2 {
+  text-align: center; /* Aligner à centre */
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+/* Cinquième section : petits paragraphes (aligné à gauche) */
+.section-paragraphs p {
+  text-align: left; /* Aligner le texte à gauche */
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0; /* Espacement entre chaque paragraphe */
+}
+
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #363636;
+  color: #fff;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-socials a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 18px; /* Taille du texte */
+}
+
+.footer-socials i {
+  font-size: 25px; /* Taille des icônes */
+  margin-right: 8px;
+}
+
+.footer-logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo img {
+  height: 50px; /* Ajuste la taille du logo principal */
+  width: auto;
+}
+
+.footer-text {
+  margin-top: 20px;
+  color: #d1d1d1; /* Gris clair */
+  font-size: 14px;
+}
