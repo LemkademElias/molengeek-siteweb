@@ -1,4 +1,3 @@
-/* Reset basique */
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +71,7 @@ body {
 }
 
 .header-bottom-left img {
-  height: 40px; /* Ajuste comme tu veux */
+  height: 40px; 
   width: auto;
 }
 
@@ -119,7 +118,7 @@ body {
 main {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* Centrer le contenu du main */
+  margin: 0 auto; /* pour centrer le contenu du main */
   padding: 20px;
 }
 
@@ -127,7 +126,7 @@ section {
   margin-bottom: 40px; /* Espacement entre chaque section */
 }
 
-/* Première section : titre h1 et hr */
+/* Première section : p et hr */
 .section-title {
   text-align: center;
 }
@@ -140,9 +139,9 @@ section {
 .section-title hr {
   width: 10%;
   height: 2px;
-  background-color: #9b009e; /* Mauve pour le hr */
+  background-color: #9b009e;
   border: none;
-  margin: 0 auto; /* Centrer le hr */
+  margin: 0 auto; /* pour centrer le hr */
 }
 
 /* Deuxième section : paragraphe */
@@ -155,7 +154,7 @@ section {
 
 /* Troisième section : liste ul avec bullet points mauves */
 .section-list ul {
-  list-style-type: none; /* Enlever les puces par défaut */
+  list-style-type: none; /* Enlever les puces */
   padding: 0;
 }
 
@@ -177,14 +176,14 @@ section {
 
 /* Quatrième section : titre h2 */
 .section-subtitle h2 {
-  text-align: left; /* Aligner à gauche */
+  text-align: left; 
   font-size: 28px;
   margin-top: 20px;
 }
 
 /* Cinquième section : petits paragraphes */
 .section-paragraphs p {
-  text-align: left; /* Aligner le texte à gauche */
+  text-align: left; 
   font-size: 16px;
   line-height: 1.6;
   margin: 10px 0; /* Espacement entre chaque paragraphe */
@@ -202,7 +201,7 @@ section {
   margin-bottom: 40px; /* Espacement entre chaque section */
 }
 
-/* Première section : titre h1 et hr (aligné à gauche) */
+/* Première section : p et hr 'à gauche'*/
 .section-title {
   text-align: center;
 }
@@ -222,7 +221,7 @@ section {
   margin: 0 auto; /* Centrer le hr */
 }
 
-/* Deuxième section : paragraphe (centré) */
+/* Deuxième section : paragraphe 'centré' */
 .section-paragraph p {
   text-align: center; /* Aligner le texte au centre */
   font-size: 18px;
@@ -230,9 +229,9 @@ section {
   margin-top: 20px;
 }
 
-/* Troisième section : liste ul avec bullet points mauves (aligné à gauche) */
+/* Troisième section : liste ul avec bullet points mauves 'à gauche' */
 .section-list ul {
-  list-style-type: none; /* Enlever les puces par défaut */
+  list-style-type: none; /* Enlever les puces */
   padding: 0;
   text-align: left; /* Aligner la liste à gauche */
 }
@@ -253,16 +252,16 @@ section {
   margin-right: 10px; /* Espacement entre le bullet point et le texte */
 }
 
-/* Quatrième section : titre h2 (centré) */
+/* Quatrième section : titre h2 'centré' */
 .section-subtitle h2 {
-  text-align: center; /* Aligner à centre */
+  text-align: center; /* Aligner au centre */
   font-size: 28px;
   margin-top: 20px;
 }
 
-/* Cinquième section : petits paragraphes (aligné à gauche) */
+/* Cinquième section : petits paragraphes 'aligné à gauche' */
 .section-paragraphs p {
-  text-align: left; /* Aligner le texte à gauche */
+  text-align: left; 
   font-size: 16px;
   line-height: 1.6;
   margin: 10px 0; /* Espacement entre chaque paragraphe */
@@ -293,11 +292,11 @@ footer {
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 18px; /* Taille du texte */
+  font-size: 18px; 
 }
 
 .footer-socials i {
-  font-size: 25px; /* Taille des icônes */
+  font-size: 25px; 
   margin-right: 8px;
 }
 
@@ -308,12 +307,11 @@ footer {
 }
 
 .footer-logo img {
-  height: 50px; /* Ajuste la taille du logo principal */
-  width: auto;
+  height: 50px; 
 }
 
 .footer-text {
   margin-top: 20px;
-  color: #d1d1d1; /* Gris clair */
+  color: #d1d1d1; 
   font-size: 14px;
 }
